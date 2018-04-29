@@ -1,0 +1,121 @@
+<!--
+  Generated template for the SignupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="secondary" >
+    <ion-title padding text-center >Registrar usuario</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <div class="splash-logo"></div>
+
+        <ion-card>
+          <ion-card-header>
+            <STRONG>¡Atencion¡</STRONG>
+          </ion-card-header>
+          <ion-card-content>
+            Digite correctamente tu informacion,asi podemos llevar un mejor seguimiento en tu progreso.
+          </ion-card-content>
+        </ion-card>
+    
+    
+        <ion-list>
+        
+           <ion-item>
+            <ion-label floating>Nombres</ion-label>
+            <ion-input type="text" [(ngModel)]="nombre" name="nombre"></ion-input>
+          </ion-item>
+    
+          <ion-item>
+            <ion-label floating>Apellidos</ion-label>
+            <ion-input type="text" [(ngModel)]="apellido" name="apellido"></ion-input>
+          </ion-item>
+
+           <ion-item >
+              <ion-label floating>Edad</ion-label>
+              <ion-input type="number" [(ngModel)]="edad" name="edad" required="required"></ion-input>
+            </ion-item>
+    
+
+          <ion-item >
+            <ion-label floating>Estatura(cm)</ion-label>
+            <ion-input type="number" [(ngModel)]="estatura" name="estatura" required="required"></ion-input>
+          </ion-item>
+          
+            <ion-item>
+            <ion-label floating>Peso(kg)</ion-label>
+            <ion-input type="number" [(ngModel)]="peso" name="peso"></ion-input>
+          </ion-item>
+
+         <ion-item>
+            <ion-label floating>Email</ion-label>
+            <ion-input type="email" [(ngModel)]="email" name="email"></ion-input>
+          </ion-item>
+         
+          <ion-item>
+            <ion-label floating>Crear Contraseña</ion-label>
+            <ion-input type="password" [(ngModel)]="password" name="password"></ion-input>
+          </ion-item>
+
+    <hr/>
+
+          <ion-list radio-group>
+            <hr/>
+            <ion-list-header>
+              Genero  (Solo una opcion)
+            </ion-list-header>
+
+            <ion-item>
+            <ion-label>Masculino</ion-label>
+            <ion-toggle [(ngModel)]="masculino" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+            <ion-item>
+            <ion-label>Femenino</ion-label>
+            <ion-toggle [(ngModel)]="femenino" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+          </ion-list>
+            <hr/>
+          <ion-list radio-group>
+            <hr/>
+            <ion-list-header>
+              Actividad fisica(Selecciona 1 opcion)
+            </ion-list-header>
+
+             <ion-item>
+            <ion-label>Ninguna actividad</ion-label>
+            <ion-toggle [(ngModel)]="NingunaActividad" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+             <ion-item>
+            <ion-label>Baja(1 a 2 dias de ejercicio)</ion-label>
+            <ion-toggle [(ngModel)]="BajaIntensidad" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+              <ion-item>
+              <ion-label>Media(3 a 4 dias de ejercicio)</ion-label>
+              <ion-toggle [(ngModel)]="MedianaIntensidad" name="phone" checked="false"></ion-toggle>
+            </ion-item>
+            
+              <ion-item>
+              <ion-label>Alta(5 o +5 dias de ejercicio)</ion-label>
+              <ion-toggle [(ngModel)]="AltaIntensidad" name="phone" checked="false"></ion-toggle>
+            </ion-item>
+
+          </ion-list>
+    
+          <div padding text-center>
+            <button ion-button color="secondary" round (click)="doSignup()" >Signup</button>
+          </div>
+    
+        </ion-list>
+</ion-content>

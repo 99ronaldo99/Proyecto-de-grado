@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-navbar color="#32db64">
+    
+    <button ion-button menuToggle>  
+      <ion-icon name="menu">
+      	<ion-nav id="nav" #content [root]="rootPage"></ion-nav>
+      </ion-icon>
+    </button>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <ion-title padding text-center  >
+    	Play Gym
+    	 <button ion-button color="secondary" style="float: right;" (click)="doLogout()" >
+    		Cerrar cuenta
+    	</button>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-slides pager >
+  <ion-slide >
+    <h2 class="slide-title">Ejercicios</h2>
+    <ion-img  style="width: 360px; height: 240px;" (click)="openEjercicios()" src="https://images.pexels.com/photos/461593/pexels-photo-461593.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></ion-img>
+  </ion-slide>
+
+  <ion-slide >
+    <h2 class="slide-title">Rutinas</h2>
+    <ion-img  style="width: 360px; height: 240px;" (click)="openRutinas()" src="https://images.pexels.com/photos/461593/pexels-photo-461593.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></ion-img>
+  </ion-slide>
+  
+  <ion-slide >
+    <h2 class="slide-title">Nutricion</h2>
+    <ion-img  style="width: 360px; height: 240px;" (click)="openNutricion()" src="https://images.pexels.com/photos/461593/pexels-photo-461593.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></ion-img>
+  </ion-slide>
+
+  <ion-slide >
+    <h2 class="slide-title">Recomendaciones</h2>
+    <ion-img  style="width: 360px; height: 240px;" (click)="openRecomendaciones()" src="https://images.pexels.com/photos/461593/pexels-photo-461593.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"></ion-img>
+  </ion-slide>
+
+</ion-slides>
+
+</ion-content>
+
+
+
+
