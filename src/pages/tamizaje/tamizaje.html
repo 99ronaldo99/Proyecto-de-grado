@@ -6,8 +6,8 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Tamizaje</ion-title>
+  <ion-navbar color="corporate" >
+    <ion-title padding text-center >Tamizaje</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -15,4 +15,95 @@
 
 <ion-content padding>
 
+	<ion-card>
+  		<ion-card-content>
+    		Por favor Digita tus datos correctamente,con ello analizaremos cuales son tus necesidades, ayudandote a solucionarlas.  
+  		</ion-card-content>
+	</ion-card>
+
+  <ion-list>
+
+  <ion-item>
+    <ion-label floating>Peso (KG)</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Altura (CM)</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Edad</ion-label>
+    <ion-input type="number"></ion-input>
+  </ion-item>
+<tr>
+  <ion-list radio-group>
+           
+            <ion-list-header>
+             <strong> Actividad fisica(Selecciona 1 opcion)</strong>
+            </ion-list-header>
+
+             <ion-item>
+            <ion-label>Ninguna actividad</ion-label>
+            <ion-toggle [(ngModel)]="NingunaActividad" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+             <ion-item>
+            <ion-label>Baja(1 a 2 dias de ejercicio)</ion-label>
+            <ion-toggle [(ngModel)]="BajaIntensidad" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+              <ion-item>
+              <ion-label>Media(3 a 4 dias de ejercicio)</ion-label>
+              <ion-toggle [(ngModel)]="MedianaIntensidad" name="phone" checked="false"></ion-toggle>
+            </ion-item>
+            
+              <ion-item>
+              <ion-label>Alta(5 o +5 dias de ejercicio)</ion-label>
+              <ion-toggle [(ngModel)]="AltaIntensidad" name="phone" checked="false"></ion-toggle>
+            </ion-item>
+
+          </ion-list>
+
+<tr>
+          <ion-list-header>
+             <strong> Genero</strong>
+            </ion-list-header>
+
+             <ion-item>
+            <ion-label>Masculino</ion-label>
+            <ion-toggle [(ngModel)]="NingunaActividad" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+           <ion-item>
+            <ion-label>Femenino</ion-label>
+            <ion-toggle [(ngModel)]="NingunaActividad" name="phone" checked="false"></ion-toggle>
+          </ion-item>
+
+           <div padding text-center>
+          <button ion-button color="hola" round > Calcular IMC </button>
+          </div>
+
+          <ion-card>
+          <ion-card-content text-center  >
+            Resultado
+           </ion-card-content>
+          </ion-card>
+
+</ion-list>
+
+
+
+
 </ion-content>
+
+<ion-footer > 
+  <ion-navbar  >
+  <div text-center  >
+    <button color="corporate" class="boton" ion-button round icon-center (click)="openTabs()" >
+      <ion-icon name="keypad"></ion-icon>
+    </button>
+  </div>
+  </ion-navbar>
+</ion-footer>

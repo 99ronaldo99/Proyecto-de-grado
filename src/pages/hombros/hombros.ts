@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
- * Generated class for the RetosPage page.
+ * Generated class for the HombrosPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,16 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-retos',
-  templateUrl: 'retos.html',
+  selector: 'page-hombros',
+  templateUrl: 'hombros.html',
 })
-export class RetosPage {
+export class HombrosPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RetosPage');
+    console.log('ionViewDidLoad HombrosPage');
   }
 
 }

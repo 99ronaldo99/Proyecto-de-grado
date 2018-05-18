@@ -4,13 +4,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
-import { NutricionPage } from '../pages/nutricion/nutricion';
-import { TamizajePage } from '../pages/tamizaje/tamizaje';
-import { ConfiguracionesPage } from '../pages/configuraciones/configuraciones';
+/*import { TamizajePage } from '../pages/tamizaje/tamizaje';*/
+/*import { ConfiguracionesPage } from '../pages/configuraciones/configuraciones';*/
 import { AcercaPage } from '../pages/acerca/acerca';
 import { ImcPage } from '../pages/imc/imc';
+import { CaloriasPage } from '../pages/calorias/calorias';
+import { RepeticionesPage } from '../pages/repeticiones/repeticiones';
 
 
 import * as firebase from 'firebase';
@@ -42,6 +42,7 @@ export class MyApp {
       if (user) {
         // User is signed in .
         that.rootPage = HomePage;
+
         // ...
       } else {
         // User is signed out.
@@ -56,9 +57,11 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: ' Inicio', component: HomePage,icon: 'home' },
-      { title: ' Tamizaje', component: TamizajePage, icon: 'man' },
-      { title: ' Calcular IMC', component: ImcPage, icon: 'settings' },
-      { title: ' Configuracion', component: ConfiguracionesPage, icon: 'settings' },
+      /*{ title: ' Tamizaje', component: TamizajePage, icon: 'body' },*/
+      { title: ' Calcular IMC', component: ImcPage, icon: 'happy' },
+      { title: ' Calorias necesarias', component: CaloriasPage, icon: 'nutrition' },
+      { title: ' Repeticion maxima', component: RepeticionesPage, icon: 'pulse' },
+      /*{ title: ' Configuracion', component: ConfiguracionesPage, icon: 'settings' },*/
       { title: ' Acerca de', component: AcercaPage, icon: 'information-circle' },
     ];
 

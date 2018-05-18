@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar color="secondary" >
+  <ion-navbar color="corporate" >
     <ion-title padding text-center >Play Gym</ion-title>
     
   </ion-navbar>
@@ -36,7 +36,7 @@
   
         <div padding text-center>
          
-           <button *ngIf="email && password " ion-button color="secondary" round (click)="submitLogin()">
+           <button *ngIf="email && password " ion-button color="corporate" round (click)="submitLogin()">
             Login</button>
           <!-- Show dead button if form is not filled -->
           <button *ngIf="!email && !password" ion-button color="secondary" clear round>Login Now</button>
@@ -51,7 +51,7 @@
     
      <br/>
      <div padding text-center>
-        <button ion-button color="gray" block clear (click)="forgotPassword()">Ingresar con facebook</button>
+        <button ion-button color="gray" block clear (click)="LoginFace()">Ingresar con facebook</button>
       </div>
    
       
@@ -59,4 +59,10 @@
           <button ion-button color="gray" block clear (click)="redirectToSignup()">Crear cuenta</button>
         </div>
 
-</ion-content>
+        <div *ngIf="isUserLoggedIn" style="text-align: center;" >
+          <img src="{{userInfo.picture.data.url}}">
+          <h3> {{userInfo.first_name}} </h3>
+          <p> {{userInfo.email}} </p>
+        </div>
+
+

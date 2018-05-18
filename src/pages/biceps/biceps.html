@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-navbar no-border-bottom>
+    <ion-title>
+      Biceps
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  
+  <ion-slides pager>
+
+  <ion-slide >
+      <ion-toolbar no-border-top>
+    <ion-segment >
+      <ion-segment-button value="puppies">
+       Ejericicios Maquinas
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+  <ion-list>
+    <a ion-item (click)="openModal({charNum: 6})">
+      Dominadas polea pecho
+    </a>
+    <a ion-item (click)="openModal({charNum: 7})">
+      Dominadas Polea Nuca
+    </a>
+    <a ion-item (click)="openModal({charNum: 8})">
+      Remos
+    </a>
+  </ion-list>
+
+
+
+
+
+
+  </ion-slide>
+
+  
+  <ion-slide >
+      <ion-toolbar no-border-top>
+    <ion-segment [(ngModel)]="pet">
+      <ion-segment-button value="puppies">
+        Peso corporal
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+   <ion-list>
+    <a ion-item (click)="openModal({charNum: 9})">
+      Fondos
+    </a>
+    <a ion-item (click)="openModal({charNum: 10})">
+      Flexion de pecho
+    </a>
+    <a ion-item (click)="openModal({charNum: 11})">
+      Flexion de pecho inclinado
+    </a>
+  </ion-list>
+
+
+  </ion-slide>
+
+  
+  
+
+</ion-slides>
+
+
+</ion-content>

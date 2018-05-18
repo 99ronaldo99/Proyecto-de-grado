@@ -64,9 +64,7 @@ export class SignupPage {
       AltaIntensidad : this.AltaIntensidad || '',
 
     };
- /*  if( this.nombre.length < 1 || this.apellido.length < 1 || this.edad.length < 1 || this.estatura.length < 1 ){
-      message('Llena todos los campos');
-      }*/
+ 
 var that = this;
 
 var loader = this.loadingCtrl.create({

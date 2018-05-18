@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../home/home';
+/*import { TabsPage } from '../tabs/tabs';*/
 
-/**
- * Generated class for the TamizajePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -15,11 +12,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class TamizajePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+
+ 
+
+  constructor(
+  	public navCtrl: NavController, 
+  	public navParams: NavParams) {
+
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad TamizajePage');
   }
 
+  openTabs(){
+    this.navCtrl.setRoot(HomePage)
+  }
+
 }
+
+

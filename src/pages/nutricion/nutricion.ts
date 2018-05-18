@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-/*import { RetosPage } from '../retos/retos';*/
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the NutricionPage page.
@@ -23,7 +23,8 @@ export class NutricionPage {
     console.log('ionViewDidLoad NutricionPage');
   }
 
-  /*retos(){ 
-    this.navCtrl.setRoot(RetosPage)
-  }*/
+  openTabs(){
+    this.navCtrl.setRoot(HomePage)
+  }
+  
 }

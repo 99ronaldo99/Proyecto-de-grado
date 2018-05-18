@@ -1,16 +1,19 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
+
 import { LoginPage } from '../login/login';
 import { NutricionPage } from '../nutricion/nutricion';
 import { RutinasPage } from '../rutinas/rutinas';
 import { EjerciciosPage } from '../ejercicios/ejercicios';
 import { RecomendacionesPage } from '../recomendaciones/recomendaciones';
+import { ConfiguracionesPage } from '../configuraciones/configuraciones';
 
 
 import { App, MenuController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { Platform, ActionSheetController } from 'ionic-angular';
+
 
 
 declare let cordova:any;
@@ -21,11 +24,14 @@ declare let cordova:any;
 })
 export class HomePage {
 
+  
+
   constructor(
   	public navCtrl: NavController,
   	public actionsheetCtrl: ActionSheetController,app: App, menu: MenuController,
   	public alerCtrl: AlertController,
-  	  public platform: Platform,) {
+  	public platform: Platform,
+    ) {
 
   }
 
@@ -103,6 +109,7 @@ openMenu() {
 
   doLogout(){ 
     this.navCtrl.setRoot(LoginPage)
+    
   }
 
   openEjercicios(){ 
@@ -119,6 +126,9 @@ openMenu() {
 
   openNutricion(){ 
     this.navCtrl.push(NutricionPage)
+  }
+  openConfiguraciones(){
+    this.navCtrl.push(ConfiguracionesPage)
   }
 
 }

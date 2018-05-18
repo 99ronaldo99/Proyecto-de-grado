@@ -35,6 +35,21 @@ page-home {
     }
   }
 
+   ion-content{
+    background: #eff5ff !important; 
+  } 
+
+  .icon-big {
+  display: flex !important;
+  justify-content:center;
+  align-items:center;
+  height: 40px !important;
+}
+
+  .submenu{
+    top: 1% !important ;
+    margin-right: -15px;
+  }
 
 
 
