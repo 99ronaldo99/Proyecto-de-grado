@@ -30,17 +30,14 @@ export class InformacionPage {
     var characters = [
       {
         name: 'Press banco Plano',
-        quote: 'Sneaky little hobbitses!',
-        image: 'assets/img/avatar-gollum.jpg',                 /*0*/
+        image: 'assets/imagenes/bancoplano.gif',                 /*0*/
         items: [
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'River Folk' },
-          { title: 'Alter Ego', note: 'Smeagol' }
+          { title: 'Race' },
         ]
       },                                                          
       {
         name: 'Press banco declinado',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
+        quote: 'Go back, Sam! I\r m going to Mordor alone!',
         image: 'assets/img/avatar-frodo.jpg',                  /*1*/
         items: [
           { title: 'Race', note: 'Hobbit' },
@@ -50,7 +47,7 @@ export class InformacionPage {
       },
       {
         name: 'Press  banco inclinado',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
+        quote: 'Go back, Sam! I\  going to Mordor alone!',
         image: 'assets/img/avatar-frodo.jpg',
         items: [
           { title: 'Race', note: 'Hobbit' },                  /*2*/

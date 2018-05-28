@@ -32,7 +32,7 @@ import { GluteosPage } from '../pages/gluteos/gluteos';
 import { InformacionPage } from '../pages/informacion/informacion';
 
 
-
+import { MaterializeModule } from "angular2-materialize";
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import * as firebase from 'firebase';
@@ -79,13 +79,15 @@ firebase.initializeApp(config);
     HombrosPage,
     PiernasPage,
     AbdomenPage,
-    InformacionPage
+    InformacionPage,
+    
 
    ],
   imports: [
     BrowserModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
+    /*MaterializeModule,*/
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -113,7 +115,8 @@ firebase.initializeApp(config);
     HombrosPage,
     PiernasPage,
     AbdomenPage,
-    InformacionPage
+    InformacionPage,
+
   ],
   providers: [
     StatusBar,

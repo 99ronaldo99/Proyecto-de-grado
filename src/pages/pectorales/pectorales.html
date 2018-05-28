@@ -14,6 +14,7 @@
 
 
 <ion-content>
+
   
   <ion-slides pager>
 
@@ -21,27 +22,50 @@
       <ion-toolbar no-border-top>
     <ion-segment >
       <ion-segment-button value="puppies">
-       Ejericicios Maquinas
+      Ejercicios con maquina
       </ion-segment-button>
     </ion-segment>
   </ion-toolbar>
 
-  <ion-list>
-    <a ion-item (click)="openModal({charNum: 0})">
-      Press banco Plano
-    </a>
-    <a ion-item (click)="openModal({charNum: 1})">
-      Press banco declinado
-    </a>
-    <a ion-item (click)="openModal({charNum: 2})">
+<ion-list>
+  
+    <button ion-item (click)="openModal({charNum: 0})">
+      Press banco plano
+    </button>
+
+    <button ion-item (click)="openModal({charNum: 1})">
+      Press con agarre estrecho
+    </button>
+
+    <button ion-item (click)="openModal({charNum: 2})">
       Press banco inclinado
-    </a>
-  </ion-list>
+    </button>
 
+    <button ion-item (click)="openModal({charNum: 3})">
+      Press banco declinado  
+    </button>
 
+    <button ion-item (click)="openModal({charNum: 4})">
+      Press en maquina 
+    </button>
 
+    <button ion-item (click)="openModal({charNum: 5})">
+      Press con mancuernas 
+    </button>
 
+    <button ion-item (click)="openModal({charNum: 6})">
+      Pull over con mancuerna
+    </button>
 
+    <button ion-item (click)="openModal({charNum: 7})">
+      Aperturas con contractor
+    </button>
+
+    <button  ion-item (click)="openModal({charNum: 8})">
+      Cruce de poleas
+    </button>
+
+</ion-list>
 
   </ion-slide>
 
@@ -56,15 +80,35 @@
   </ion-toolbar>
 
    <ion-list>
-    <a ion-item (click)="openModal({charNum: 3})">
-      Fondos
-    </a>
-    <a ion-item (click)="openModal({charNum: 4})">
-      Flexion de pecho
-    </a>
-    <a ion-item (click)="openModal({charNum: 5})">
-      Flexion de pecho inclinado
-    </a>
+    <button ion-item (click)="openModal({charNum: 9})">
+      Flexiones codos hacia fuera
+    </button>
+    <button ion-item (click)="openModal({charNum: 10})">
+      Flexiones de triceps
+    </button>
+    <button ion-item (click)="openModal({charNum: 11})">
+      Flexion diamante
+    </button>
+    <button ion-item (click)="openModal({charNum: 12})">
+      Flexiones inclinadas
+    </button>
+    <button ion-item (click)="openModal({charNum: 13})">
+      Flexiones declinadas
+    </button>
+    <button ion-item (click)="openModal({charNum: 14})">
+      Fondos 
+    </button>
+    <button ion-item (click)="openModal({charNum: 15})">
+      Flexion con palmadas
+    </button>
+    <button ion-item (click)="openModal({charNum: 16})">
+      Flexion delfin
+    </button>
+    <button ion-item (click)="openModal({charNum: 17})">
+      Flexion arquero
+    </button>
+
+
   </ion-list>
 
 
