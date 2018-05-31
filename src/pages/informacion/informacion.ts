@@ -30,501 +30,988 @@ export class InformacionPage {
     var characters = [
       {
         name: 'Press banco Plano',
-        image: 'assets/imagenes/bancoplano.gif',                 /*0*/
-        items: [
-          { title: 'Race' },
-        ]
+        quote1: '1.Acostarse en un banco plano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/press banco plano.gif', 
+        photo: 'assets/imagenes/pectorales/press banco plano.jpg' ,                /*0*/
+       
       },                                                          
-      {
-        name: 'Press banco declinado',
-        quote: 'Go back, Sam! I\r m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',                  /*1*/
-        items: [
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
+      {/*1*/
+        name: 'Press banco manos juntas',
+        quote1: '1.Acostarse en un banco plano' ,
+        quote2: '2.Tomar barra en agarre estrecho' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/press banco manos juntas.gif', 
+        photo: 'assets/imagenes/pectorales/press banco manos juntas.jpg' , 
       },
-      {
+      {/*2*/
         name: 'Press  banco inclinado',
-        quote: 'Go back, Sam! I\  going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [
-          { title: 'Race', note: 'Hobbit' },                  /*2*/
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
+        quote1: '1.Acostarse en un banco inclinado' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/press banco inclinado.gif', 
+        photo: 'assets/imagenes/pectorales/press banco inclinado.jpg' ,
       },
-      {
+      {/*3*/
+        name: ' Press banco declinado  ',
+        quote1: '1.Acostarse en un banco decliado' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/press banco declinado.gif', 
+        photo: 'assets/imagenes/pectorales/press banco declinado.jpg' ,
+      },
+      {/*4*/
+        name: 'Press de barra en maquina',
+        quote1: '1.Sentarse con la espalda recta' ,
+        quote2: '2.Tomar las barras de los mandos' ,
+        quote3: '3.Estira tus brazos mientras exhalas' ,
+        quote4: '4.Inhala mientras recoges los brazos' ,
+        image: 'assets/imagenes/pectorales/press de barra en maquina.gif', 
+        photo: 'assets/imagenes/pectorales/press de barra en maquina.jpg' ,
+      },
+      {/*5*/
+        name: 'Press  con mancuernas',
+        quote1: '1.Acostarse en un banco plano' ,
+        quote2: '2.Tomar dos mancuernas del mismo peso' ,
+        quote3: '3.Exhalar mientras estiras los brazos' ,
+        quote4: '4.Inhalar mientras bajas las mancuernas' ,
+        quote5: '5.Repetir el movimiento ritmicamente' ,
+        image: 'assets/imagenes/pectorales/press  con mancuernas.gif', 
+        photo: 'assets/imagenes/pectorales/press  con mancuernas.jpg' ,
+      },
+      {/*6*/
+        name: ' Pull over con mancuerna',
+        quote1: '1.Acostarse en un banco plano' ,
+        quote2: '2.Tomar la barra en pronacion ' ,
+        quote3: '3.Tomar barra al hancho de los hombros' ,
+        quote4: '4.Bajar la barra por detras de la cabeza' ,
+        quote5: '5.Exhalar volviendo a la posicion inicial',
+        image: 'assets/imagenes/pectorales/pull over con mancuerna.gif', 
+        photo: 'assets/imagenes/pectorales/pull over con mancuerna.jpg' ,
+      },
+      {/*7*/
+        name: 'Apertura de contractor',
+        quote1: '1.Sentarse en la maquina con espalda recta' ,
+        quote2: '2.Apoyar los brazos en la maquina' ,
+        quote3: '3.Cerrar los brazos ' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/apertura de contractor.gif', 
+        photo: 'assets/imagenes/pectorales/apertura de contractor.jpg' ,
+      },
+      {/*8*/
+        name: 'Cruce de poleas',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/cruce de poleas.gif', 
+        photo: 'assets/imagenes/pectorales/cruce de poleas.jpg' ,
+      },/*////////////////////////////////////////////////////////////////////////////////////////////*/
+      {/*9*/
+        name: 'Flexiones de brazos',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexiones de brazos.gif', 
+        photo: 'assets/imagenes/pectorales/flexiones de brazos.jpg' ,
+      },
+      {/*10*/
+        name: 'Flexion de triceps',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion de triceps.gif', 
+        photo: 'assets/imagenes/pectorales/flexiones de brazos.jpg' ,
+      },
+      { /*11*/
+        name: 'Flexion diamante',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/Flexion diamante.gif', 
+        photo: 'assets/imagenes/pectorales/flexiones de brazos.jpg' ,
+      },
+      {/*12*/
+        name: 'Flexion  inclinado',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion  inclinado.gif', 
+        photo: 'assets/imagenes/pectorales/cruce de poleas.jpg' ,
+      },
+      { /*13*/
+        name: 'Flexiones declinadas',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/cruce de poleas.gif', 
+        photo: 'assets/imagenes/pectorales/cruce de poleas.jpg' ,
+      },
+      { /*14*/
         name: 'Fondos',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [
-          { title: 'Race', note: 'Hobbit' },                  /*3*/
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/fondos.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
       },
-      {
-        name: 'Flexion de pecho',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [
-          { title: 'Race', note: 'Hobbit' },                  /*4*/
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
+      {/*15*/
+        name: 'Flexion con palmadas',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion con palmadas.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
       },
-      {
-        name: 'Flexion de pecho inclinado',
+      {/*16*/
+        name: 'Flexion delfin',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+        
+      },
+      {/*17*/
+        name: 'Flexion arquero',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+      {/*18*/
+        name: 'Curl de biceps alterno',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      { /*19*/
+        name: 'Curl de biceps concentrado',
         quote: 'Go back, Sam! I\'m going to Mordor alone!',
         image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                        /*5*/
+        items: [                                                   
           { title: 'Race', note: 'Hobbit' },
           { title: 'Culture', note: 'Shire Folk' },
           { title: 'Weapon', note: 'Sting' }
         ]
       },
-      {
-        name: ' Dominadas polea pecho',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                      /*6*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
+      {/*20*/
+        name: 'Curl martillo alterno',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
       },
-      {
+      {/*21*/
+        name: 'Curl de biceps polea',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*22*/
+        name: 'Curl de biceps en polea',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      { /*23*/
+        name: 'Curl de biceps con barra',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      { /*24*/
+        name: 'Curl de banco Scott',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*25*/
+        name: 'Curl de biceps agarre pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*26*/
+        name: 'Curl de biceps en polea alta',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*27*/
+        name: 'Curl de biceps en banco inclinados',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,      },
+      {/*28*///////////////////////////////////////////////////////////////////////////////////////////////////
+        name: 'Dominadas agarre hancho pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*29*/
+        name: 'Dominada agarre supinacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*30*/
+        name: 'Dominada agarre pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*31*/
+        name: 'Dominada comando',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*32*/
+        name: 'Remos supinos',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*33*/
+        name: 'Dominada lateral',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*34*/
+        name: 'Curl de biceps agarre pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*35*/
+        name: 'Dominada en L',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*36*/
+        name: 'Dominada agarre mixto',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+      {/*37*/
+        name: 'Extencion de triceps en polea',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*38*/
+        name: 'Extension de triceps agarre invertido',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*39*/
+        name: 'Press frances con barra',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*40*/
+        name: 'Press frances con mancuernas',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*41*/
+        name: 'Extension alternada con macuerna',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*42*/
+        name: 'Extension sentado con mancuerna',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*43*/
+        name: 'Extension sentado con barra ',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*44*/
+        name: 'Extension de triceps inclinado con mancuerna',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*45*/
+        name: 'Extension de triceps en polea a una mano',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*46*/
+        name: 'Flexiones Diamantes',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*47*/
+        name: 'Fondos en paralelas',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*48*/
+        name: 'Fondos en banco',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*49*/
+        name: 'Fondos en barra recta',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*50*/
+        name: 'Fondos Coreanos',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*51*/
+        name: 'Flexiones en Vertical',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*52*/
+        name: 'Extensión de Tríceps en Suelo',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*53*/
+        name: 'Extensión de Tríceps en Barra',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*54*/
+        name: 'Fondos Imposibles',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+      {/*55*/
+        name: 'Polea al pecho',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*56*/
+        name: 'Polea al pecho con agarre estrecho',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*57*/
+        name: 'Pull over polea alta',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*58*/
+        name: 'Remo en polea baja',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*59*/
+        name: 'Remo con mancuerna',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*60*/
+        name: 'Remo con barra prono ',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*61*/
+        name: 'Polea al pecho agarre supino',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*62*/
+        name: 'Remo con barra supino',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*63*/
+        name: 'Remo con mancuernas inclinado',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*64*/
+        name: 'Remo con mancuernas inclinado',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*/////////////////////////////////////     ESPALDA PESO CORPORAL  ////////////////////// ////////////////////*/
+      {/*65*/
+        name: 'Dominadas agarre hancho pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*66*/
+         name: 'Dominada agarre supinacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*67*/
+        name: 'Dominadas agarre pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*68*/
+        name: 'Dominada comando',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*69*/
+        name: 'Remos supinos ',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*70*/
+        name: 'Dominada latera;',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*71*/
+        name: 'Curl de biceps agarre pronacion',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*72*/
+        name: 'Dominada en L',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },
+      {/*73*/
+        name: 'Dominada agarre mixto',
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*//////////////////////////////////////           ABDOMEN CON MAQUINA  ///////////////////////////////////////*/
+      {/*74*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*7*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*75*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*8*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*76*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*9*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*77*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*10*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*78*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*11*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*79*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*12*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*80*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*13*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*81*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*14*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*82*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*15*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*83*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*16*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*84*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*17*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*85*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*18*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*86*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*19*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*87*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*20*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*88*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*21*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },{/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*22*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*23*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*24*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*25*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*26*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*26*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*27*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*28*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*29*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*30*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*31*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*32*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*33*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*34*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*35*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*36*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*37*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*38*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*39*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*40*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*41*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      {/*89*/
         name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*42*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
-        name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*43*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
-        name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*44*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
-        name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*45*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
-        name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*46*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
-        name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*47*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
-      {
-        name: 'Dominadas Polea Nuca',
-        quote: 'Go back, Sam! I\'m going to Mordor alone!',
-        image: 'assets/img/avatar-frodo.jpg',
-        items: [                                                    /*48*/
-          { title: 'Race', note: 'Hobbit' },
-          { title: 'Culture', note: 'Shire Folk' },
-          { title: 'Weapon', note: 'Sting' }
-        ]
-      },
+        quote1: '1.Acostarse en un banco pano' ,
+        quote2: '2.Tomar barra en agarre pronacion' ,
+        quote3: '3.Inhalar mientras bajas la barra al pecho' ,
+        quote4: '4.Exhalar mientras subes la barra del pecho' ,
+        image: 'assets/imagenes/pectorales/flexion delfin.gif', 
+        photo: 'assets/imagenes/pectorales/fondos.jpg' ,
+      },/*90*/
+      
+
 
       ];
       this.character = characters[this.params.get('charNum')];

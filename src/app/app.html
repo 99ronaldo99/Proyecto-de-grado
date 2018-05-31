@@ -1,6 +1,26 @@
-
+<!-- 
 
 <ion-menu  [content]="content">
+  <ion-header  >
+    <ion-toolbar  style="width: 330px; height: 190px;" >
+      <img src="assets/imagenes/drawable-land-hdpi-screen.png" >
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content >
+    <ion-list>
+      <button color="corporate" menuClose ion-item *ngFor=" let p of pages" (click)="openPage(p)">
+        <ion-icon name="{{ p . icon }}"></ion-icon>
+        {{ p . title }}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+ -->
+
+ <ion-menu  [content]="content">
   <ion-header  >
     <ion-toolbar  style="width: 330px; height: 190px;" >
       <img src="assets/imagenes/drawable-land-hdpi-screen.png" >

@@ -1,7 +1,7 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Descripcion
+      Descripcion del ejercicio
     </ion-title>
     <ion-buttons start>
      
@@ -11,15 +11,38 @@
 <ion-content>
   <ion-list>
       <ion-item>
-        <h2>{{character.name}}</h2>
+        <h1 text-center><strong>{{character.name}}</strong></h1>
         <img  src="{{character.image}}" style="width: 360px; height: 240px;" >
-        <p>{{character.quote}}</p>
+          <ion-card>
+          <ion-card-content>
+             <p><strong> Intrucciones</strong> </p>
+            <p>{{character.quote1}}</p>
+             <p>{{character.quote2}}</p>
+             <p>{{character.quote3}}</p>
+             <p>{{character.quote4}}</p>
+             <p>{{character.quote5}}</p>
+             <p>{{character.quote6}}</p>
+
+          </ion-card-content>
+        </ion-card> 
+
+        <hr/>
+
+         <h2 text-center><strong>Musculos usados </strong></h2>
+         <img  src="{{character.photo}}" style="width: 360px; height: 240px;" >
+         
+        
       </ion-item>
-      <ion-item *ngFor="let item of character['items']">
-        {{item.title}}
-        <ion-note item-end>
-          {{item.note}}
-        </ion-note>
-      </ion-item>
+
+
+
   </ion-list>
 </ion-content>
+
+<ion-footer > 
+  <ion-navbar  >
+
+  </ion-navbar>
+</ion-footer>
+
+

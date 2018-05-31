@@ -12,23 +12,41 @@
   <ion-slides pager>
 
   <ion-slide >
-      <ion-toolbar no-border-top>
-    <ion-segment >
-      <ion-segment-button value="puppies">
-       Ejericicios Maquinas
-      </ion-segment-button>
-    </ion-segment>
-  </ion-toolbar>
+          <ion-toolbar no-border-top>
+        <ion-segment [(ngModel)]="pett">
+          <ion-segment-button value="puppiess">
+            Ejercicios con maquina
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
 
   <ion-list>
-    <a ion-item (click)="openModal({charNum: 12})">
-      Dominadas polea pecho
+    <a ion-item (click)="openModal({charNum: 18})">
+      Curl de Biceps alterno
     </a>
-    <a ion-item (click)="openModal({charNum: 13})">
-      Dominadas Polea Nuca
+    <a ion-item (click)="openModal({charNum: 19})">
+      Curl de biceps concentrado
     </a>
-    <a ion-item (click)="openModal({charNum: 14})">
-      Remos
+    <a ion-item (click)="openModal({charNum: 20 })">
+      Curl martillo alterno
+    </a>
+    <a ion-item (click)="openModal({charNum: 22})">
+      Curl de biceps en polea
+    </a>
+    <a ion-item (click)="openModal({charNum: 23})">
+      curl de biceps con barra
+    </a>
+    <a ion-item (click)="openModal({charNum: 24 })">
+      Curl en banco Scott
+    </a>
+    <a ion-item (click)="openModal({charNum: 25})">
+      Curl de biceps agarre pronacion
+    </a>
+    <a ion-item (click)="openModal({charNum: 26})">
+      Curl de biceps en polea alta
+    </a>
+    <a ion-item (click)="openModal({charNum: 27 })">
+      Curl de biceps en banco inclinado
     </a>
   </ion-list>
 
@@ -50,15 +68,35 @@
   </ion-toolbar>
 
    <ion-list>
-    <a ion-item (click)="openModal({charNum: 15})">
-      Fondos
+    <a ion-item (click)="openModal({charNum: 28})">
+      Headbangers
     </a>
-    <a ion-item (click)="openModal({charNum: 16})">
-      Flexion de pecho
+    <a ion-item (click)="openModal({charNum: 29})">
+      Dominada agarre supinacion
     </a>
-    <a ion-item (click)="openModal({charNum: 17 })">
-      Flexion de pecho inclinado
+    <a ion-item (click)="openModal({charNum: 30 })">
+      Dominada agarre pronacion
     </a>
+    <a ion-item (click)="openModal({charNum: 31})">
+      Dominada comando <!--  -->
+    </a>
+    <a ion-item (click)="openModal({charNum: 32})">
+      Remos supinos
+    </a>
+    <a ion-item (click)="openModal({charNum: 33 })">
+      Dominada lateral  <!-- hacer como la flexion arquero -->
+    </a>
+    <a ion-item (click)="openModal({charNum: 34})">
+      Curl de biceps agarre pronacion
+    </a>
+    <a ion-item (click)="openModal({charNum: 35})">
+      Dominada en L
+    </a>
+    <a ion-item (click)="openModal({charNum: 36 })">
+      Dominada agarre mixto
+    </a>
+   
+    
   </ion-list>
 
 
